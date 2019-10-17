@@ -8,5 +8,6 @@ def my_all?(collection)
     block_return_values << yield(collection[i])
     i += 1
   end
+  binding.pry
 
 end
